@@ -10,5 +10,5 @@ crate-type = ["dylib"]
 [dependencies]
 libc = "0.2.0"
 openssl = { version = "0.10.48", features = ["vendored"] }
-toml = "0.8"
+toml = "0.9"
 uuid = { version = "1.7", features = ["v4"] }
